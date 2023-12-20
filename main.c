@@ -33,34 +33,6 @@ int main()
                   Any new users should be added to that linked list.
     */
 
-    // Your solution goes here
-    // char username1[30] = "AdrianSibiga"; //1
-    // char password1[15] = "Adrian";
-
-    // char username2[30] = "JasonHuynh"; //3
-    // char password2[15] = "Jason";
-
-    // char username3[30] = "CalebAitken"; //2
-    // char password3[15] = "Aitken";
-
-    // char username4[30] = "KyleWilvers"; //4
-    // char password4[15] = "Kyle";
-
-    // char username5[30] = "MacleanCrowdis"; //4
-    // char password5[15] = "Maclean";
-
-    // user_t* users = NULL;
-    // users = add_user(users, username1, password1);
-    // print_list_usernames(users);
-    // users = add_user(users, username2, password2);
-    // print_list_usernames(users);
-    // users = add_user(users, username3, password3);
-    // print_list_usernames(users);
-    // users = add_user(users, username4, password4);
-    // print_list_usernames(users);
-    // users = add_user(users, username5, password5);
-    // print_list_usernames(users);
-
     _Bool exit = 0;
     _Bool exit_posts = 0;
     _Bool exit_friends = 0;
@@ -226,4 +198,5 @@ int main()
             printf("Invalid choice. Please try again.\n\n");
         }
     }
+    teardown(users);
 }//End of main
